@@ -1,0 +1,9 @@
+# The mvnw shell script must keep LF or it breaks on macOS/Linux
+mvnw text eol=lf
+*.sh text eol=lf
+
+# Windows script keeps CRLF
+*.cmd text eol=crlf
+
+# Let everything else follow the platform default
+* text=auto
